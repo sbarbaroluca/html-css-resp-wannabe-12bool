@@ -97,7 +97,7 @@
 }
 
 /* MD */
-@media screen and (min-width: 768px) and (max-widht: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
     .col-md-1 {
         width: calc((100% / 12) * 1);
@@ -139,7 +139,7 @@
 }
 
 /* LG */
-@media screen and (min-widht: 992px) {
+@media screen and (min-width: 992px) {
 
     .col-lg-1 {
         width: calc((100% / 12) * 1);

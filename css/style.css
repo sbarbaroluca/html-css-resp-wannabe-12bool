@@ -1,9 +1,7 @@
 .container {
     min-height: 100px;
 }
-[class*="col-"] > .container {
-    height: 100%;
-}
+
 
 [class*="col-"] {
     border: 1px solid black;
@@ -27,5 +25,14 @@ img {
 
 p {
     margin-top: 15px;
+}
+
+.sfondo {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+hr {
+    margin-top: 20px;
 }
 
