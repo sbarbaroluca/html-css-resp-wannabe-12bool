@@ -1,6 +1,31 @@
 .container {
-    background-color: red;
-    min-height: 500px;
+    min-height: 100px;
+}
+[class*="col-"] > .container {
+    height: 100%;
 }
 
-[class*="col-"] 
+[class*="col-"] {
+    border: 1px solid black;
+    min-height: 100px;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    line-height: 200px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 220px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-top: 15px;
+}
+
